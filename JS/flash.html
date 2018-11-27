@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div id="hezi" >
+		
+	</div>
+	<style type="text/css">
+    #hezi{
+    	background-color: black;
+    	width: 60px;
+    	height: 100px;
+    }
+	</style>
+<script type="text/javascript">
+    window.onload=function(){
+       f1("hezi","-50","100");
+    }
+    hezi.onmouseover=function(){
+    	f2("hezi","0","100");
+
+    }
+    hezi.onmouseout=function(){
+    	f2("hezi","-50","100");
+
+    }
+    
+        function f1(elementID,final_x,final_y){
+    	var elem=document.getElementById(elementID);
+    	elem.style.position="absolute";
+	    elem.style.left=final_x+"px";
+	    elem.style.top=final_y+"px";
+    }
+        function f2(elementID,final_x,final_y,interval){
+	    var elem=document.getElementById(elementID);
+	    var x=parseInt(elem.style.left);
+	    var y=parseInt(elem.style.top);
+	    if(x==final_x && y==final_y){
+	    	return true;
+	    }
+	    if (x<final_x) {
+	    	x++;
+	    }
+	    if (x>final_x) {
+	    	x--;
+	    }
+	    if (y<final_y) {
+	    	y++;
+	    }
+	    if (y>final_y) {
+	    	y--;
+	    }
+	    elem.style.left=x+"px";
+	    elem.style.top=y+"px";
+	    var repeat="f2('"+elementID+"',"+final_x+","+final_y+","+interval+")";
+	    setTimeout(repeat,interval);
+	}
+
+</script>
+</body>
+</html>
