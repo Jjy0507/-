@@ -1,0 +1,21 @@
+#textalt{
+	width: 400px;
+	height: 20px;
+	background-color: #333;
+	text-align: right;
+	margin-top: -3px;
+}
+#textalt a{
+	text-decoration: none;
+	padding: 1px 10px;
+	color: #fff;
+}
+.axx{
+	background-color: #666;
+}
+.axx:hover{
+	background-color: #999;
+}
+.bxx{
+	background-color: #C30;
+}
