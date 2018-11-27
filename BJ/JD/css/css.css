@@ -1,0 +1,140 @@
+.top-out{
+	height: 100px;
+	border: 0px solid red;
+	border-bottom-color: #ccc;
+	border-bottom-width: 2px;
+
+}
+.top-img{
+	height: 100px;
+	width: 200px;
+	border: 0px solid red;
+	margin-top:10px;
+	float:left;
+	margin-left: 300px;
+}
+.top-text{
+	height: 100px;
+	width: 200px;
+	border: 0px solid red;
+	margin-top:5px;
+	float:left;
+	margin-right:100px;
+	
+}
+.top-wenzi{
+	height: 30px;
+	width: 250px;
+	border: 0px solid red;
+	margin-top:60px;
+	list-style-type: none;
+	float: right;
+	margin-right:300px;
+}
+.top-wenzi li{
+	float: left;
+}
+.center{
+	height: 700px;
+	border: 0px solid red;
+	margin-top:10px;
+}
+.center-input{
+	height: 600px;
+	width: 550px;
+	border: 0px solid red;
+	margin-top:3px;
+	float: left;
+	margin-left:500px;
+}
+.t{
+	height: 45px;
+	width: 90px;
+	color: black;
+	background-color: #ccc;
+	border:0px solid red;
+	margin-top:30px;
+}
+.tt{
+	height: 40px;
+	width: 300px;
+	border:1px solid #ccc;
+	margin-top:30px;
+}
+input{
+	margin-top:40px;
+}
+.ttt{
+	height: 40px;
+	width: 400px;
+	background-color: red;
+	color: white;
+	border: 0px solid red;
+}
+.center-kong{
+	width: 30px;
+	height: 500px;
+	border: 0px solid red;
+	float: left;
+	margin-top:60px;
+	border-right-width: 1px;
+	border-right-color: #ccc;
+}
+.center-tu{
+	width: 300px;
+	height: 500px;
+	border: 0px solid red;
+	margin-top:60px;
+	list-style-type: none;
+	float: left;
+	margin-left:100px;
+}
+.center-tu li{
+	color: #666666;
+}
+.center-tu li:hover{
+	color: black;
+	cursor: pointer;
+}
+.u{
+	color:black;
+	cursor: pointer;
+}
+.u{
+	color:black;
+	cursor: pointer;}
+.bottow{
+	height: 200px;
+	border: 0px solid red;
+}
+.bottow-kong{
+	width: 1000px;
+	height: 10px;
+	border: 0px solid red;
+	margin-left:400px;
+	border-bottom-color: #ccc;
+	border-bottom-width: 2px;
+}
+.bottow-wenzi{
+	width: 900px;
+	color: #ccc;
+	margin-top:30px;
+	margin-left:auto;	
+	margin-right:auto;
+}
+.bottow-wenzi:hover{
+	color: #ccc;
+	cursor: pointer;
+}
+.bottow-text{
+	width: 500px;
+	color: #ccc;
+	margin-left:auto;	
+	margin-right:auto;
+}
+a{
+	color: blue;
+}
+a:hover{
+	color: blue;
+}
