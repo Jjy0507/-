@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p id="msg">hahahha</p>
+    <p id="msg2">heheheh</p>
+<script type="text/javascript">
+    window.onload=function(){
+       f1("msg","50","100");
+       setTimeout("f2('msg',300,200,10)",10);
+	   f1("msg2","500","100");
+       setTimeout("f2('msg2',300,200,10)",10);   
+    }
+    function f1(elementID,final_x,final_y){
+    	var elem=document.getElementById(elementID);
+    	elem.style.position="absolute";
+	    elem.style.left=final_x+"px";
+	    elem.style.top=final_y+"px";
+    }
+    function f2(elementID,final_x,final_y,interval){
+	    var elem=document.getElementById(elementID);
+	    var x=parseInt(elem.style.left);
+	    var y=parseInt(elem.style.top);
+	    if(x==final_x && y==final_y){
+	    	return true;
+	    }
+	    if (x<final_x) {
+	    	x++;
+	    }
+	    if (x>final_x) {
+	    	x--;
+	    }
+	    if (y<final_y) {
+	    	y++;
+	    }
+	    if (y>final_y) {
+	    	y--;
+	    }
+	    elem.style.left=x+"px";
+	    elem.style.top=y+"px";
+	    var repeat="f2('"+elementID+"',"+final_x+","+final_y+","+interval+")";
+	    setTimeout(repeat,interval);
+	}
+</script>
+</body>
+</html>
