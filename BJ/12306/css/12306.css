@@ -1,0 +1,157 @@
+.top{
+	
+	height:100px;
+	border: 0px solid red;
+}
+.top-list{
+	list-style-type: none;
+	float: right;
+	height: 32px;
+	width: 950px;
+	border: 0px solid red;
+	margin-right: 23%;
+	margin-left: 20%;
+	background-image: url(../images/top.gif);
+	background-repeat-x:repeat;
+	margin-top: 68px;
+
+}
+.top-list li{
+	float: left;
+	margin: 10px;
+	
+}
+.list1{
+	color: yellow;
+	font-size: small;
+	font-family: 微软雅黑;
+}
+.list{
+	color: white;
+	font-size: small;
+	font-family: 微软雅黑;
+
+}
+.center{
+	height: 800px;
+	border: 0px solid red;
+	margin-top:10px;
+}
+.you{
+	height: 750px;
+	width: 225px;
+	border: 0px solid red;
+	float: left;
+	margin-left: 25%;
+	display:inline;
+	list-style-type: none;
+
+}
+.you li{
+	margin-top:15px;
+	border: 1px solid #ccc
+}
+.tututu{
+	width: 225px;
+}
+.zhong{
+	height: 750px;
+	width: 500px;
+	border: 0px solid red;
+	float: left;
+	margin-top: -750px;
+	margin-left:38%;
+	display: inline;
+
+}
+.zhong1{
+	width: 500px;
+	border: 0px solid red;
+	background-color: #dddddd;
+
+}
+.zhong li{
+	margin-top: 5px;
+}
+.search{
+	border: 1px solid #e4e4e4;
+    background: url(../images/search.gif);
+    text-align: center;
+    line-height: 34px;
+    height: 34px;
+}
+.l{
+	height: 25px;
+}
+.tu{
+	width: 500px;
+}
+.tutu{
+	margin-top: 30px;
+	width: 500px;
+}
+.zuo{
+	height: 750px;
+	width: 225px;
+	border: 0px solid red;
+	float: right;
+	margin-top: -750px;
+	margin-right:23%;
+	list-style-type: none;
+}
+.zuotu{
+	width: 225px;
+	height: 400px;
+}
+.zuo1 li{
+	border: 1px solid #ccc;
+	margin-top: 5px;
+}
+li{
+	color: black;
+	cursor: pointer;
+}
+li:hover{
+	color: red;
+}
+.tiedao{
+	width: 400px;
+	height: 200px;
+}
+.in{
+	overflow-y: scroll;
+	height: 200px;
+	width: 225px;
+}
+.tiedao{
+	background-image: url(http://www.12306.cn/mormhweb/images/ico_link002.gif);
+	width:230px;
+	height: 200px;
+	background-repeat: repeat-y;
+}
+.dikong{
+	width: 800px;
+	height: 2px;
+	border: 0px solid red;
+	margin-left:-700px;
+	margin-top: 20px;
+	border-bottom-width: 2px;
+	border-bottom-color: #0066ff;
+}
+.di{
+	width: 150px;
+	height: 20px;
+	border: 0px solid red;
+	margin-left:-400px;
+	margin-top: 10px;
+}
+.di2{
+	margin-top: -10px;
+	height: 20px;
+	margin-left:-500px;
+}
+.di3{
+	margin-top: -10px;
+	height: 20px;
+	margin-left:-450px;
+}
