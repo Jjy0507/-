@@ -1,0 +1,87 @@
+.top{
+	height: 150px;
+	border: 0px solid red; 
+	border-bottom-width: 1px;
+	border-bottom-color: #f9a1bc;
+}
+.toptu{
+	height: 80px;
+	width: 80px;
+	float: left;
+	border: 0px solid red;
+	margin-top:35px;
+	margin-left: 200px;
+	background-image: url("../images/touxiang.jpg");
+	background-size: 80px 80px;
+	}
+.topzi{
+	height: 50px;
+	width: 120px;
+	float: left;
+	border: 0px solid red;
+	margin-top:50px;
+	margin-left: 10px;
+	font-family: 微软雅黑;
+	font-size: 40px;
+	color: #625772;
+	}
+.topdaohanglan{
+	height: 50px;
+	width: 900px;
+	float: left;
+	margin-left: 200px;
+	border: 0px solid red;
+	margin-top:70px;
+	list-style-type: none;
+}
+.topdaohanglan li{
+	float: left;
+	margin: 30px;
+	font-family: 微软雅黑;
+	font-size: 18px;
+	color: #625772;
+	cursor: pointer;
+}
+.topdaohanglan li:hover{
+	color:#fecd51;
+}
+.m{
+	height: 600px;
+	width: 600px;
+	border: 2px solid pink;
+	float: left;
+	margin-left: 650px;
+	margin-top: 20px;
+}
+.tx{
+	height: 100px;
+	width: 100px;
+	border: 0px solid red;
+	margin-top: -500px;
+	float: left;
+	margin-left: 480px;
+	background-image: url("../images/touxiang.jpg");
+	background-size: 100px 100px;
+}
+.hhh{
+	height: 500px;
+	width: 300px;
+	border: 0px solid red;
+	float: left;
+	margin-left: 150px;
+	margin-top: 50px;
+	font-family: 微软雅黑;
+	font-size: 50px;
+	color: #625772;
+	list-style-type: none;
+	letter-spacing: 20px;
+
+}
+.hhh li{
+	
+	font-family: 微软雅黑;
+	font-size: 20px;
+	margin:20px;
+	margin-top: 50px;
+	letter-spacing: 0px;
+}
