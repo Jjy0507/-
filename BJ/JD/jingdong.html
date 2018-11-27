@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人注册</title>
+	<link rel="icon" type="image/x-icon" href="images/jingdong.ico">
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+</head>
+<body>
+	<div class="top-out">
+		<div class="top-img">
+			<img src="images/jd.png">
+		</div>
+		<div class="top-text">
+			<p style="font-size: 30px;font-family:微软雅黑;">欢迎注册</p>
+		</div>
+		<div class="top-wenzi">
+			<li  style="color: #aaaaaa;">已有账号？</li>
+			<li class="u">请登录</li>
+		</div>
+	</div>
+	<div class="center">
+		<div class="center-input">
+			<input  class="t" type="submit" value="用户名"><input  class="tt" type="text" onkeyup="test()" id="user" onfocus="cli()" onblur="ccc()">
+			<span id="span"></span><br>
+			
+			<input  class="t" type="submit" value="设置密码"><input  class="tt" type="password" onkeyup="tester()" id="pwd" onfocus="clier()" onblur="cccer()">
+			<span id="spaner"></span><br>
+
+			<input  class="t" type="submit" value="确认密码"><input  class="tt" type="password" onkeyup="testsan()" id="repwd" onfocus="clisan()" onblur="cccsan()">
+			<span id="spansan"></span><br>
+			<input  class="t" type="submit" value="中国10086"><input  class="tt" type="text" onkeyup="textsi()" id="number" onfocus="clisi()" onblur="cccsi()">
+			<span id="spansi"></span><br>
+			
+			<input  class="t" type="submit" value="验证码"><input  class="tt" type="text"><br>
+			<input  class="t" type="submit" value="手机验证码"><input  class="tt" type="text"><br>
+			<input type="checkbox">阅读并同意 <a href="#">《京东用户注册协议》《隐私政策》</a><br>
+			<input  class="ttt" type="submit" value="立即注册">
+		</div>
+		<script type="text/javascript">
+			function cli(){
+				var span = document.getElementById("span");
+				span.innerHTML = "请输入4-20位字符";
+			}
+			function ccc(){
+				var span = document.getElementById("span");
+				span.innerHTML = "";
+			}
+			function test(){
+				var user = document.getElementById("user");
+				var span = document.getElementById("span");
+				if(user.value.length < 4 || user.value.length > 20){
+					span.style.color = "red";
+					span.innerHTML = "请输入4-20位字符";
+				}
+				else{
+					span.style.color = "green";
+					span.innerHTML = "输入正确";
+				}
+			}
+			function clier(){
+				var span = document.getElementById("spaner");
+				spaner.innerHTML = "请输入6-20位字符";
+			}
+			function cccer(){
+				var span = document.getElementById("spaner");
+				spaner.innerHTML = "";
+			}
+			function tester(){
+				var pwd = document.getElementById("pwd");
+				var span = document.getElementById("spaner");
+				if(pwd.value.length < 6 || pwd.value.length > 20){
+					spaner.style.color = "red";
+					spaner.innerHTML = "请输入6-20位字符";
+				}
+				else{
+					spaner.style.color = "green";
+					spaner.innerHTML = "输入正确";
+				}
+			}
+			function clisan(){
+				var span = document.getElementById("spansan");
+				spansan.innerHTML = "请再次输入密码";
+			}
+			function cccsan(){
+				var span = document.getElementById("spansan");
+				spansan.innerHTML = "";
+			}
+			function testsan(){
+				var repwd = document.getElementById("repwd");
+				var span= document.getElementById("spansan");
+				if (repwd.value==pwd.value) { 
+					spansan.style.color = "green";
+					spansan.innerHTML = "输入正确";
+					
+					
+				}
+				else{
+					spansan.style.color = "red";
+					spansan.innerHTML = "两次输入不一致";
+
+				}
+			}
+			function clisi(){
+				var span = document.getElementById("spansi");
+				spansi.innerHTML = "请输入电话号码";
+			}
+			function cccsi(){
+				var span = document.getElementById("spansi");
+				spansi.innerHTML = "";
+			}
+			function textsi(){
+				var number = document.getElementById("number");
+				var span= document.getElementById("spansi");
+				if (number.value.length==11) { 
+					spansi.style.color = "green";
+					spansi.innerHTML = "输入正确";
+					
+					
+				}
+				else{
+					spansi.style.color = "red";
+					spansi.innerHTML = "请输入正确的电话号码";
+
+				}
+			}
+			
+			
+			</script>
+		<div class="center-kong">
+		</div>
+		<div class="center-tu">
+			<li><img src="images/qy.png" style="vertical-align: middle">企业用户注册</li>
+			<li><img src="images/qiu.png" style="vertical-align: middle">INTERNATIONALCUSTOMERS</li>
+		</div>
+	</div>
+	<div class="bottow">
+		<div class="bottow-kong">
+		</div>
+		<div class="bottow-wenzi">
+			<p style="color: #888888;font-size:15px;">关于我们| 联系我们| 人才招聘| 商家入驻| 广告服务| 手机京东| 友情链接| 销售联盟| 京东社区| 京东公益| English Site</p>
+		</div>
+		<div class="bottow-text">
+			<p style="color: #888888;font-size: 15px;">Copyright©2004-2016  京东JD.com 版权所有 </p>
+		</div>
+	</div>
+
+	
+</body>
+</html>
