@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+  <table border="1" width="600" height="700" cellspacing="0">
+  <tr>
+  	<td colspan="4" align="center" style="background-color: #F0F0F0">个人基本信息</td>
+  	
+  </tr>
+  <tr>
+  	<td><span style="color: red">*</span>姓名</td>
+  	<td><input type="text" name="user">
+  	</td>
+  	<td><span style="color: red">*</span>性别</td>
+  	<td>男<input type="radio" name="sex">
+		女<input type="radio" name="sex">
+	</td>
+  </tr>
+  <tr>
+  	<td>籍贯</td>
+  	<td><input type="text" name="jiguan"></td>
+  	<td>出生日期</td>
+  	<td><select name="year">
+  	        <option value="xz">选择</option>
+			<option value="one">1999</option>
+			<option value="two">2000</option>
+			<option value="three">2001</option>
+		</select>
+		年
+		<select name="month">
+		    <option value="xz">选择</option>
+			<option value="one">12</option>
+			<option value="two">11</option>
+			<option value="three">10</option>
+		</select>
+		月
+		<select name="day">
+		    <option value="xz">选择</option>
+			<option value="one">30</option>
+			<option value="two">29</option>
+			<option value="three">28</option>
+		</select>
+		日
+		</td>
+  </tr>
+  <tr>
+  	<td rowspan="2">个人照片</td>
+  	<td colspan="3" rowspan="2">
+    <input type="text" name="image" style="width: 300px;">
+    <br>
+    <br>
+    注：照片大小请控制在200K以内。
+  	</td>
+  	
+  </tr>
+  <tr>
+  	
+  	
+  	
+  </tr>
+  <tr>
+  	<td>身份证号码</td>
+  	<td><input type="text" name="sf"></td>
+  	<td><span style="color: red">*</span>毕业院校</td>
+  	<td><input type="text" name="yx"></td>
+  </tr>
+  <tr>
+  	<td><span style="color: red">*</span>最后学历</td>
+  	<td><input type="text" name="xl"></td>
+  	<td><span style="color: red">*</span>专业</td>
+  	<td><input type="text" name="zy"></td>
+  </tr>
+  <tr>
+  	<td><span style="color: red">*</span>毕业时间</td>
+  	<td><input type="text" name="bysj"></td>
+  	<td>学位证书</td>
+  	<td><input type="text" name="zs"></td>
+  </tr>
+  <tr>
+  	<td colspan="4" align="center" style="background-color: #F0F0F0">个人能力</td>
+  </tr>
+  <tr>
+  	<td rowspan="3">语言能力</td>
+  	<td><span style="color: red">*</span>英语能力水平</td>
+  	<td  colspan="2">
+  	<input type="radio" name="yingyu">四级
+	<input type="radio" name="yingyu">六级
+    <input type="radio" name="yingyu">其他
+  	</td>
+  	
+  </tr>
+  <tr>
+  	
+  	<td>日语能力水平</td>
+  	<td  colspan="2">
+  	<input type="radio" name="riyu">1级
+	<input type="radio" name="riyu">2级
+	<input type="radio" name="riyu">3级
+	<input type="radio" name="riyu">4级
+    <input type="radio" name="riyu">其他
+  	</td>
+  </tr>
+  <tr>
+  	
+  	<td>其他语言能力水平</td>
+  	<td colspan="2"><input type="text" name="sp"></td>
+  </tr>
+  <tr>
+  	<td rowspan="3">专业技能</td>
+  	<td>计算机语言</td>
+  	<td colspan="2">
+  	    <input type="checkbox">JAVE
+		    <input type="checkbox">.NET
+		    <input type="checkbox">C/C++
+		    <input type="checkbox">其他
+	</td>
+  	
+  </tr>
+  <tr>
+  	
+  	<td>使用平台</td>
+  	<td colspan="2">
+  	    <input type="checkbox">WINDOWS
+		    <input type="checkbox">LUNIX
+		    <input type="checkbox">其他
+	</td>
+  </tr>
+  <tr>
+  	
+  	
+  	<td>使用平台</td>
+  	<td colspan="2">
+  	    <input type="checkbox">ORACLE
+		    <input type="checkbox">DB2
+		    <input type="checkbox">SYBASE/SQL-SEVER
+		    <input type="checkbox">其他
+	</td>
+  </tr>
+  <tr>
+  	<td colspan="2">所获证书（国家标准考试）</td>
+  	    
+  	<td colspan="2">
+  	   <input type="checkbox">系统分析员
+		   <input type="checkbox">高级程序员
+		   <input type="checkbox">程序员
+		   <input type="checkbox">其他
+	</td>
+  
+  </tr>
+  <tr>
+  	<td>工作经验</td>
+  	<td colspan="3">格式：工作单位（或项目名称），担任职位，时间，工作内容描述</td>
+  	
+  </tr>
+  </table>
+	
+</body>
+</html>
