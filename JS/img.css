@@ -1,0 +1,25 @@
+   /* CSS Document */
+ul{
+	padding:0;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+li{ 
+    float:left;
+    list-style:none;
+	margin:10px;
+}
+img { 
+      clear:both;
+      display:block;
+}
+.pp{
+	 width:400px;
+	 height:280px;
+}
+.ppp{
+     width:80px;
+	 height:60px;
+}
