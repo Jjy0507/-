@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="gb2312">
+<title>韵味</title>
+<link style rel="stylesheet" type="text/css" href="style/bj.css">
+<link style rel="stylesheet" type="text/css" href="style/mh.css">
+<script  type="text/javascript">
+
+//收藏本站
+function AddFavorite(title, url) {
+    try {
+        window.external.addFavorite(url, title);
+    }
+    catch (e) {
+        try {
+            window.sidebar.addPanel(title, url, "");
+        }
+        catch (e) {
+            alert("抱歉，您所使用的浏览器无法完成此操作。\n\n加入收藏失败，请使用Ctrl+D进行添加");
+        }
+    }
+}
+</script>
+</head>
+<body>
+<div id="wrapper">
+<div id="header">
+<div id="logo">
+<img src="images/logo.gif"/>
+</div>
+<div id="top">
+<p>
+<a href="index.html">返回首页|</a>
+<a href="javascript:void(0);" onclick="AddFavorite('我的网站',location.href)">收藏本站</a>
+</p>
+</div>
+<div id="menu">
+<ul>
+<li><a href="#">美食新闻</a></li>
+<li><a href="#">美食介绍</a></li>
+<li><a href="#">湘菜名店</a></li>
+<li><a href="#">湘菜名厨</a></li>
+<li><a href="#">酒店频道</a></li>
+<li><a href="#">旅游频道</a></li>
+<li><a href="#">联系我们</a></li>
+</ul>
+</div>
+<div id="banner">
+<embed src="banner/banner.swf"></embed>
+</div>
+</div>
+<div id="pagebody">
+<div id="left">
+<a href="#" class="a">美食新闻</a>
+<p><a href="#">让“村长”垂涎三尺的老坛剁椒鱼头来了！| 队员福利社</a></p>
+<table>
+<tr><td><img src="images/1.png"/></td><td><img src="images/2.png"/></td><td><img src="images/3.png"/></td></tr>
+</table>
+<p><a href="#">老南七竟开了家2000㎡的湘菜馆，整整半个月都打5.5折</a></p>
+<table>
+<tr><td><img src="images/4.png"/></td><td><img src="images/5.png"/></td><td><img src="images/6.png"/></td></tr>
+</table>
+<p><a href="#">湘菜馆点到缺货的一道菜，自己在家做很简单！</a></p>
+<table>
+<tr><td><img src="images/7.png"/></td><td><img src="images/8.png"/></td><td><img src="images/9.png"/></td></tr>
+</table>
+<p><a href="#">有个来自湖南的米饭杀手，在成都隐居5年终于被发现！</a></p>
+<table>
+<tr><td><img src="images/10.png"/></td><td><img src="images/11.png"/></td><td><img src="images/12.png"/></td></tr>
+</table>
+<p><a href="#">河西好呷货新根据地，超过三成店铺都是美食~</a></p>
+<table>
+<tr><td><img src="images/13.png"/></td><td><img src="images/14.png"/></td><td><img src="images/15.png"/></td></tr>
+</table>
+</div>
+<div id="center">
+<a href="#" id="a">美食介绍</a>
+<table>
+<tr><td><img src="images/a1.png"/></td><td><img src="images/a2.png"/></td><td><img src="images/a3.png"/></td></tr>
+<td>姊妹团子</td><td>龙脂猪血</td><td>糯米粽子</td></tr>
+<td>89886人推荐</td><td>85280人推荐</td><td>80725人推荐</td></tr>
+<tr><td><img src="images/a4.png"/></td><td><img src="images/a5.png"/></td><td><img src="images/a6.png"/></td></tr>
+<td>口味虾</td><td>椒盐馓子</td><td>长沙臭豆腐</td></tr>
+<td>76730人推荐</td><td>76145人推荐</td><td>75540人推荐</td></tr>
+<tr><td><img src="images/a7.png"/></td><td><img src="images/a8.png"/></td><td><img src="images/a9.png"/></td></tr>
+<td>刮凉粉</td><td>湘宾春卷</td><td>芙蓉三鲜火锅</td></tr>
+<td>876553人推荐</td><td>76786人推荐</td><td>80725人推荐</td></tr>
+</table>
+</div>
+<div id="right">
+<a href="#" class="a">名厨推荐</a>
+<p>
+放眼当今中国的餐饮业，从南到北，从东到西，湘菜可谓是一枝独秀，风靡全国。究其根本，乃是湘菜大师们不拘一格，既继承湘菜传统，又吸取其它菜系精华，不断开拓进取，不断推出新湘菜样式，从而造就了湘菜餐饮蓬勃发展，在遍地开花的局面。
+</p>
+<img src="images/ren.png"/>
+<p>他们就像国画之于齐白石、京剧之于梅兰芳、文学之于鲁迅一样，是中国湘菜界的一面旗帜，是中国湘菜界的标杆。他们取得的成就可圈可点，他们的梦想在实践中生产价值，他们在湘菜界的洪涛中中流击水，石荫祥、聂厚忠、许菊云、谭添三、王墨泉、曹秋泉、张力行、张志君、黄惠明，这10位优秀的湘菜大师，就是10个光辉的篇章。
+</p>
+<p>
+正是因为有了这样一群不凡的人物领衔湘菜，才使得中国湘菜走得更远、走得更具竞争力和生存力。
+</p>
+</div>
+</div>
+<div id="footer">
+<p>版权信息<br>
+Copyright  2011-2017 韵味湖南美食 版权所有 湘ICP备1234567号</p>
+</div>
+</div>
+</body>
+</html>
