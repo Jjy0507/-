@@ -1,0 +1,213 @@
+.head {
+    height: 110px;
+    width: 960px;
+    border-bottom: 1px #ccc solid;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px white solid;
+}
+.logo {
+    float: left;
+    padding: 15px 10px 0px;
+    width: 450px;
+}
+.zi {
+    margin: 15px 0px 5px;
+    padding: 5px 0px 0px 20px;
+    height: 35px;
+    color: #176bc1;
+    border-left: 1px #ccc solid;
+}
+.img {
+    float: left;
+    display: block;
+    width: 160px;
+    margin-top: -20px;
+   
+}
+.fanhui {
+    float: right;
+    padding: 80px 5px 0px 0px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.logo h2 {
+    display: block;
+    font-weight: bold;
+}
+.logo p {
+    padding-top: 5px;
+    font-size: 12px;
+    color: #858585;
+}
+.fanhui a {
+    color: #333;
+    font-size: 14px;
+}
+.center{
+    width: 960px;
+    height: 500px;
+    border-top: 1px #ddd solid;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 1px #ddd solid;
+}
+.center_top{
+    padding: 10px;
+    width: 640px;
+    height: 550px;
+    border: 0px blue solid;
+}
+.zhuce{
+    
+    width: 490px;
+    height: 40px;
+    border-bottom: 1px #ccc solid;
+    margin-left: 100px; 
+    margin-top: 20px;
+}
+.center li{
+    text-align: center;
+    list-style-type: none;
+    float: left;
+    height: 35px;
+    width: 110px;    
+}
+.geren{
+    margin-left: -112px;
+    border: 1px #ccc solid;
+    border-bottom: 0px;
+    border-top: 2px orange solid;
+    margin-top: 4px;
+    color: #333;
+    font-size: 14px;
+    }
+.tuandui{
+    margin-top: 4px;
+    border: 1px #ccc solid;
+    border-bottom: 0px;
+    margin-left: 10px;
+    color: #333;
+    font-size: 14px;
+}
+.center_body{
+    width: 600px;
+    height: 353px;
+    border: 1px #ccc solid;
+}
+.left{
+    width: 400px;
+    height: 400px;
+    border: 1px solid transparent;
+    margin-top: -500px;
+    margin-left: 50px;
+}
+.left_top{
+    border: 0px black solid;
+    width: 400px;
+    height: 200px;
+}
+.center_phone{
+    float: right;
+    position: relative;
+    width: 300px;
+    height: 150px; 
+    margin-top: 5px;
+   
+}
+.left_top input {
+    margin-top: 30px;
+}
+.yanzheng{
+    background-color:#0080ff;color:white;;
+    width: 100px;
+    height: 24px;
+    border: 1px #0080ff solid;
+}
+.label{
+    float: left;
+    color: #333;
+    font-size: 14px;
+    padding: 10px 10px 0 0;
+    text-align: right;
+    width: 80px;
+    line-height: 18px;
+    margin-top: 30px;
+}
+.label1{
+    float: left;
+    color: #333;
+    font-size: 14px;
+    padding: 10px 10px 0 0;
+    text-align: right;
+    width: 80px;
+    line-height: 10px;
+    
+}
+.left_mima{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.readme label{
+    margin-top: 10px;
+}
+.mima{
+    margin-top: 5px;
+    margin-left: 85px;
+    font-size: 18px;
+    color: #333;
+    font-size: 13px;
+    position: relative;
+}
+.mima a{
+    color: orange;
+}
+.mima input{
+    margin-top: 20px;
+}
+.zhu{
+    width: 240px;
+    height: 30px;
+    color:white;
+    font-size:18px;
+    background-color: orange;border:0px;
+}
+.right{
+    float: left;;
+    width: 300px;
+    height: 400px;
+    border-left: 1px #ccc solid;
+    margin-left: 660px;
+    margin-top: -430px;
+}
+.right_top{
+
+    width: 200px;
+    height: 20px;
+    margin-left: 30px;
+}
+.right_center{
+    margin-left: 30px;
+}
+.right_bottom{
+    font-size: 15px;
+    color: #333;
+    width: 250px;
+    height: 150px;
+    border-top: 1px #ccc solid;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.right a{
+    color: #0080ff;
+}
+.bottom_text{
+    font-size: 10px;
+    color: #333;
+    width:500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
