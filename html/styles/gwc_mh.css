@@ -1,0 +1,23 @@
+/* CSS Document */
+#gwc_center table{
+	width:1200px;
+	margin:0px auto;
+	text-align:center;
+}
+#gwc_center table img{
+	width:86px;
+	height:86px;	
+	float:left;
+	border:1px solid #ccc;
+	margin:20px 0px;
+}
+#gwc_center table span{
+	display:block;
+	float:left;
+	margin:20px 10px;
+	line-height:30px;
+}
+#gwc_center table a{
+	text-decoration:none;
+	color:black;
+}

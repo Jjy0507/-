@@ -1,0 +1,154 @@
+#ce_left{
+	width:510px;
+	height:600px;
+	float:left;
+}
+#ce_right{
+	width:510px;
+	height:600px;
+	float:right;
+}
+#y{
+	width:510px;
+	height:80px;
+	margin:10px 0px;
+	background-color:#f9f9f9;
+}
+#ce_left a {
+  color: #c60;
+  background-color: transparent;
+  font-weight: bold;
+  text-decoration: none;
+}
+#ce_left ul {
+  padding: 0;
+}
+#ce_left li {
+  float: left;
+  padding: 1px;
+  list-style: none;
+}
+#ce_left li img{
+  width: 100px;
+  height:80px;
+}
+#imagegallery {
+  list-style: none;
+}
+
+#imagegallery li {
+  display: inline;
+}
+
+#imagegallery li a img {
+  border: 0;
+}
+#ce_right h3{
+  color:#333;
+}
+#ce_right p{
+	clear:both;
+	margin:15px 0px;
+	color:#666;
+}
+.a{
+	display:block;
+	width:150px;
+	height:40px;
+	border:1px solid #ccc;
+	float:left;
+	text-align:center;
+	line-height:40px;
+	margin:15px 0px;
+	margin-left:100px;
+	color:#666;
+}
+.b{
+	display:block;
+	width:150px;
+	height:40px;
+	border:1px solid #ccc;
+	float:right;
+	text-align:center;
+	margin:15px 0px;
+	margin-right:100px;
+	line-height:40px;
+	color:#666;
+}
+.c{
+	display:block;
+	width:20px;
+	height:20px;
+	border:1px solid black;
+	text-align:center;
+	margin:0px 5px;
+	float:right;
+}
+#d{
+	display:block;
+	width:40px;
+	height:20px;
+	border:1px solid #ccc;
+	text-align:center;
+	float:right;
+}
+#wr_shuliang{
+	width:120px;
+	margin-left:70px;
+	margin-top:-35px;
+}
+.d{
+	display:block;
+	width:150px;
+	height:40px;
+	border:1px solid red;
+	float:left;
+	text-align:center;
+	line-height:40px;
+	margin:20px 0px;
+	margin-left:100px;
+	color:red;
+}
+.e{
+	display:block;
+	width:150px;
+	height:40px;
+	background-color:red;
+	float:right;
+	text-align:center;
+	margin:20px 0px;
+	margin-right:100px;
+	line-height:40px;
+	color:white;
+}
+#tb{
+	clear:both;
+	margin-top:100px;
+	text-align:center;
+	color:#999;
+
+}
+#tb td{
+	margin-top:50px;
+	border:1px solid #ccc;
+}
+#tu{
+	width:1050px;
+}
+#tu_left{
+	width:520px;
+	height:505px;
+	float:left;
+}
+#tu_right{
+	width:525px;
+	height:505px;
+	float:right;	
+}
+#tu_bottom{
+	clear:both;
+	width:1050px;
+	height:350px;
+	text-align:center;
+	margin-top:-50px;
+}

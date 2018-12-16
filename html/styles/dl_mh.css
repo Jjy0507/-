@@ -1,0 +1,39 @@
+#dl_center{
+	width:1200px;
+	margin:30px auto;
+}
+#dl_left{
+	width:702px;
+	height:605px;
+	float:left;
+	background-image:url(../images/dl_left.png);
+	margin:30px 0px;
+	
+}
+#dl_right{
+	width:450px;
+	height:605px;
+	float:right;
+	margin:30px 0px;
+}
+#dl_right table{
+	text-align:center;
+}
+#xm_center{
+	width:1200px;
+	margin:30px auto;
+}
+#xm_center table tr{
+     height:200px;
+}
+#xm_center table a{
+	text-decoration:none;
+	color:#333;
+}
+#xm_center table a:hover{
+	color:black;
+}
+#fw_center{
+	width:1200px;
+	margin:30px auto;
+}

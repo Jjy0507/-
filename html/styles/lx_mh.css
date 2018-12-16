@@ -1,0 +1,22 @@
+#lx_center table{
+	width:1200px;
+	margin:0px auto;
+	text-align:center;
+}
+#lx_center table tr{
+	height:60px;
+}
+#xx_center{
+	width:1200px;
+	margin:0px auto;
+	text-align:center;
+}
+#cj_center{
+	width:1200px;
+	margin:0px auto;
+	text-align:center;
+}
+#cj_center a{
+	text-decoration:none;
+	color:#333;
+}
